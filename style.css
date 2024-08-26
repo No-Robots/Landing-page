@@ -7,6 +7,12 @@ p{
     color: #e5e7eb;
 }
 
+h1{
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
 ul{
     list-style: none;
     display: flex;
@@ -14,6 +20,17 @@ ul{
     margin-right: 10%;
     font-size: 18px;
     color: #e5e7eb;
+}
+
+button{
+    max-width: 100px;
+    max-height: 50px;
+    padding: 10px;
+    color: #e5e7eb;
+    background-color: #3882f6;
+    border: none;
+    border-radius: 8px;
+    font-weight:900;
 }
 
 .header{
@@ -30,5 +47,48 @@ ul{
     display: flex; 
     font-size: 24px;
     font-weight: 900;
+    margin-left: 10%;
+}
+
+.awesome{
+    display: flex;
+    background: #1f2937;
+    justify-content: space-between;
+    padding-bottom: 10%;
+    align-items: baseline;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10.5%;
+    max-height: 600px;
+    max-width: 600px;
+    flex: 2;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.title{
+    display: flex;
+    max-height: 200px;
+    max-width: 400px;
+    flex: 2;
+    flex-wrap: wrap;
+    margin-top: 20%;
+    margin-bottom: -2%;
+}
+
+.img{
+    display: flex;
+    align-self: flex-end;
+    justify-content: center;
+    align-items: center;
+    min-height: 300px;
+    min-width: 700px;
+    background-color: #f9faf865;
+    outline: 5px solid #f9faf865;
+    margin-top: 5%;
+    margin-right: 10%;
     margin-left: 10%;
 }
