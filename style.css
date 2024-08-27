@@ -79,6 +79,42 @@ button{
     margin-bottom: -2%;
 }
 
+
+.rtitle{
+    display: flex;
+    justify-content: center;
+    font-weight: 900;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+
+.images{
+    display:flex;
+    justify-content: center;
+    gap: 35px;
+}
+
+.rp{
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+}
+
+.rp p{
+    max-width: 200px;
+    flex-wrap: wrap;
+}
+
+.rimg{
+    min-height: 200px;
+    max-height: 200px;
+    min-width: 200px;
+    max-height: 200px;
+    border: solid #3882f6;
+    border-radius: 8px;
+    display: flex;
+}
+
 .img{
     display: flex;
     align-self: flex-end;
