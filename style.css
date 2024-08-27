@@ -103,6 +103,7 @@ button{
 .rp p{
     max-width: 200px;
     flex-wrap: wrap;
+    color:#1f2937;
 }
 
 .rimg{
@@ -127,4 +128,35 @@ button{
     margin-top: 5%;
     margin-right: 10%;
     margin-left: 10%;
+}
+
+.quote{
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 5%;
+}
+
+.quote h1{
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    margin-top: 5%;
+    margin-bottom: -1%;
+    display: flex;
+    min-width:  300px;
+    max-width: 800px; 
+    flex-wrap: wrap;
+}
+
+.quote h4{
+    display: flex;
+    align-self: flex-end;
+    margin-right: 32%;
+    font-weight: 900;
 }
