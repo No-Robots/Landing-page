@@ -138,6 +138,8 @@ button{
     align-items: center;
     margin-top: 5%;
     margin-bottom: 5%;
+    margin-left: -20%;
+    margin-right: -20%;
     padding: 5%;
 }
 
@@ -188,4 +190,15 @@ button{
     min-width: 150px;
     margin-left: 5%;
     border: solid #f9faf8;
+}
+
+.footer{
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:2%;
+    margin-left: -10%;
+    margin-bottom: -20%;
+    margin-right: -20%;
 }
