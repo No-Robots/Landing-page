@@ -160,3 +160,32 @@ button{
     margin-right: 32%;
     font-weight: 900;
 }
+
+.action{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882f6;
+    color: #f9faf8;
+    margin: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 1%;
+    border: solid #3882f6;
+    border-radius: 8px;
+}
+
+.action h4{
+    font-weight: 900;
+}
+
+.action p{
+    margin-top: -3%;
+    font-size: small;
+}
+
+.action button{
+    min-width: 150px;
+    margin-left: 5%;
+    border: solid #f9faf8;
+}
